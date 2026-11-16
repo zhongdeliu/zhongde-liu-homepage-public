@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Blueprint paper: same navy as the dark theme (bg token) -->
+  <rect width="32" height="32" rx="5" fill="#0a1f3a"/>
+  <!-- Corner ticks, like the note cards (ln2 token) -->
+  <path d="M2.75 7V2.75H7M29.25 25V29.25H25" fill="none" stroke="#72d2ff" stroke-width="1.5"/>
+  <!-- Monogram on the pixel grid: cap height 8-24, weight 3; Z baseline runs into the L stem -->
+  <path d="M5 8H15V11L8.6 21H16V24H5V21L11.4 11H5Z" fill="#d8e9ff"/>
+  <path d="M16 8H19V21H27V24H16Z" fill="#5ee6b8"/>
+</svg>
