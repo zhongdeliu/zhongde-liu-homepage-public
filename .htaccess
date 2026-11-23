@@ -1,0 +1,9 @@
+# Apache (behind Plesk's nginx). Deployed with the site from public/.
+
+# Bare domain -> www, keep path and query
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^zhongdeliu\.de$ [NC]
+RewriteRule ^ https://www.zhongdeliu.de%{REQUEST_URI} [R=301,L]
+
+# Own 404 page instead of the Plesk default
+ErrorDocument 404 /404.html
